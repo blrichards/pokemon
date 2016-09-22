@@ -1,1 +1,0 @@
-.\music.o: Music.c

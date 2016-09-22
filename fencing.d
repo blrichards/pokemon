@@ -1,1 +1,0 @@
-.\fencing.o: Fencing.c

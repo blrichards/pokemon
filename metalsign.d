@@ -1,1 +1,0 @@
-.\metalsign.o: MetalSign.c

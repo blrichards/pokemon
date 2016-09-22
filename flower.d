@@ -1,1 +1,0 @@
-.\flower.o: Flower.c

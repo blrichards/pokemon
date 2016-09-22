@@ -1,1 +1,0 @@
-.\bedroom.o: Bedroom.c

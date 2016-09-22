@@ -1,1 +1,0 @@
-.\downstairs.o: Downstairs.c

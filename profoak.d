@@ -1,1 +1,0 @@
-.\profoak.o: ProfOak.c

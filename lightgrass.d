@@ -1,1 +1,0 @@
-.\lightgrass.o: LightGrass.c

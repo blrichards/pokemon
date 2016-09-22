@@ -1,1 +1,0 @@
-.\pokecenterinside.o: PokeCenterInside.c
