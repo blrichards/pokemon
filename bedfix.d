@@ -1,0 +1,1 @@
+.\bedfix.o: BedFix.c

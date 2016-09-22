@@ -1,0 +1,16 @@
+.\graphics.o: Graphics.c
+.\graphics.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\graphics.o: PokeLib.h
+.\graphics.o: ST7735.h
+.\graphics.o: Maps.h
+.\graphics.o: Images.h
+.\graphics.o: Red_House.h
+.\graphics.o: Environment.h
+.\graphics.o: Trainer.h
+.\graphics.o: Inside.h
+.\graphics.o: Actions.h
+.\graphics.o: Kid.h
+.\graphics.o: ProfOak.h
+.\graphics.o: Joystick.h
+.\graphics.o: tm4c123gh6pm.h
+.\graphics.o: Random.h

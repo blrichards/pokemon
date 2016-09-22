@@ -1,0 +1,15 @@
+.\pokebattle.o: ..\PokeBattle.c
+.\pokebattle.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\pokebattle.o: ..\ST7735.h
+.\pokebattle.o: ..\PokeLib.h
+.\pokebattle.o: ..\Random.h
+.\pokebattle.o: ..\Joystick.h
+.\pokebattle.o: ..\tm4c123gh6pm.h
+.\pokebattle.o: ..\BattleImages.h
+.\pokebattle.o: ..\PokeBattle.h
+.\pokebattle.o: ..\PokeLib.h
+.\pokebattle.o: ..\User.h
+.\pokebattle.o: ..\PokeLib.h
+.\pokebattle.o: ..\PokeStructs.h
+.\pokebattle.o: ..\PokeLib.h
+.\pokebattle.o: ..\Graphics.h

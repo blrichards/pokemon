@@ -1,0 +1,1 @@
+.\battleimages.o: BattleImages.c

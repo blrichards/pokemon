@@ -1,0 +1,1 @@
+.\lighttile.o: LightTile.c

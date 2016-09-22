@@ -1,0 +1,235 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\EE319KwareSpring2016\EE319K_Labs\students\br24964_naa968\Pokemon\Pokemon.uvproj
+Project File Date:  04/30/2016
+
+<h2>Output:</h2>
+Build target 'Pokemon'
+compiling PokeBattle.c...
+PokeBattle.c(255): warning:  #177-D: variable "xmarg" was declared but never referenced
+        int xmarg = 10;
+PokeBattle.c(382): warning:  #550-D: variable "color" was set but never used
+        unsigned short color;
+PokeBattle.c(420): warning:  #177-D: variable "color" was declared but never referenced
+                unsigned short color;
+PokeBattle.c(451): warning:  #550-D: variable "color" was set but never used
+                unsigned short color;
+PokeBattle.c(124): warning:  #177-D: variable "animate" was declared but never referenced
+  static int animate;
+PokeBattle.c(126): warning:  #177-D: variable "youLose" was declared but never referenced
+  static int youLose;
+PokeBattle.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=16068 RO-data=131360 RW-data=6588 ZI-data=14988  
+".\Pokemon.axf" - 0 Error(s), 6 Warning(s).
+Load "C:\\Keil\\EE319KwareSpring2016\\EE319K_Labs\\students\\br24964_naa968\\Pokemon\\Pokemon.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+amage);
+PokeBattle.c(124): warning:  #177-D: variable "animate" was declared but never referenced
+  static int animate;
+PokeBattle.c(126): warning:  #177-D: variable "youLose" was declared but never referenced
+  static int youLose;
+PokeBattle.c: 6 warnings, 3 errors
+".\Pokemon.axf" - 3 Error(s), 6 Warning(s).
+Target not created
+6588 ZI-data=14988  
+".\Pokemon.axf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Keil\\EE319KwareSpring2016\\EE319K_Labs\\students\\br24964_naa968\\Pokemon\\Pokemon.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+peed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+s declared but never referenced
+  static int Battle_EnemyAttack() {
+PokeBattle.c: 11 warnings, 2 errors
+".\Pokemon.axf" - 2 Error(s), 11 Warning(s).
+Target not created
+able "Dialogue1" was declared but never referenced
+  static char *Dialogue1 = "What will \0";
+PokeBattle.c(96): warning:  #177-D: variable "Dialogue2" was declared but never referenced
+  static char *Dialogue2 = " do?\0";
+PokeBattle.c(101): warning:  #177-D: variable "youLose" was declared but never referenced
+  static int youLose;
+PokeBattle.c(293): warning:  #177-D: function "Battle_UpdateUserHealth" was declared but never referenced
+  static int Battle_UpdateUserHealth(int newHealth) {
+PokeBattle.c(666): warning:  #177-D: function "Battle_EnemyAttack" was declared but never referenced
+  static int Battle_EnemyAttack() {
+PokeBattle.c: 9 warnings, 0 errors
+compiling BattleImages.c...
+compiling PokeStructs.c...
+compiling User.c...
+compiling Kid.c...
+compiling ProfOak.c...
+linking...
+Program Size: Code=14324 RO-data=129136 RW-data=6500 ZI-data=14988  
+".\Pokemon.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Keil\\EE319KwareSpring2016\\EE319K_Labs\\students\\br24964_naa968\\Pokemon\\Pokemon.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+arning(s).
+Load "C:\\Keil\\EE319KwareSpring2016\\EE319K_Labs\\students\\br24964_naa968\\Pokemon\\Pokemon.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+sh Download failed  -  Target DLL has been cancelled
+Load "C:\\Keil\\EE319KwareSpring2016\\EE319K_Labs\\students\\br24964_naa968\\Pokemon\\Pokemon.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+ was declared but never referenced
+  static int youLose;
+PokeBattle.c(205): warning:  #177-D: function "Battle_UpdateUserHealth" was declared but never referenced
+  static int Battle_UpdateUserHealth(int newHealth) {
+PokeBattle.c(617): warning:  #177-D: function "Battle_EnemyAttack" was declared but never referenced
+  static int Battle_EnemyAttack() {
+PokeBattle.c: 8 warnings, 6 errors
+compiling BattleImages.c...
+compiling PokeStructs.c...
+PokeLib.h(28): error:  #20: identifier "Move_t" is undefined
+        Move_t *moveSet[4];
+PokeStructs.c: 0 warnings, 1 error
+compiling User.c...
+PokeLib.h(28): error:  #20: identifier "Move_t" is undefined
+        Move_t *moveSet[4];
+User.c(5): error:  #29: expected an expression
+        {},
+User.c(6): error:  #29: expected an expression
+        {},
+User.c: 0 warnings, 3 errors
+compiling Kid.c...
+compiling ProfOak.c...
+".\Pokemon.axf" - 15 Error(s), 15 Warning(s).
+Target not created
+ages[0]->imagePt, UserPokemon[0].Images[0]->width, UserPokemon[0].Images[0]->height);
+PokeBattle.c(604): error:  #136: struct "pokemon" has no field "Images"
+        ST7735_DrawBitmap(3, 88, UserPokemon[0].Images[0]->imagePt, UserPokemon[0].Images[0]->width, UserPokemon[0].Images[0]->height);
+PokeBattle.c(606): error:  #136: struct "pokemon" has no field "Images"
+        ST7735_DrawBitmap(110, 40, EnemyPokemon[0].Images[1]->imagePt, EnemyPokemon[0].Images[1]->width, EnemyPokemon[0].Images[1]->height);
+PokeBattle.c(606): error:  #136: struct "pokemon" has no field "Images"
+        ST7735_DrawBitmap(110, 40, EnemyPokemon[0].Images[1]->imagePt, EnemyPokemon[0].Images[1]->width, EnemyPokemon[0].Images[1]->height);
+PokeBattle.c(606): error:  #136: struct "pokemon" has no field "Images"
+        ST7735_DrawBitmap(110, 40, EnemyPokemon[0].Images[1]->imagePt, EnemyPokemon[0].Images[1]->width, EnemyPokemon[0].Images[1]->height);
+PokeBattle.c(576): warning:  #177-D: variable "j" was declared but never referenced
+        int j;
+PokeBattle.c(623): error:  #132: expression must have pointer-to-struct-or-union type
+        int newHealth = EnemyPokemon[0].health - UserPokemon[0].moveSet[cs]->damage;
+PokeBattle.c(629): error:  #132: expression must have pointer-to-struct-or-union type
+        EnemyPokemon[0].health -= Player.pokemon[0]->moveSet[cs]->damage;
+PokeBattle.c(98): warning:  #177-D: variable "Dialogue1" was declared but never referenced
+  static char *Dialogue1 = "What will \0";
+PokeBattle.c(99): warning:  #177-D: variable "Dialogue2" was declared but never referenced
+  static char *Dialogue2 = " do?\0";
+PokeBattle.c(104): warning:  #177-D: variable "youLose" was declared but never referenced
+  static int youLose;
+PokeBattle.c(205): warning:  #177-D: function "Battle_UpdateUserHealth" was declared but never referenced
+  static int Battle_UpdateUserHealth(int newHealth) {
+PokeBattle.c(617): warning:  #177-D: function "Battle_EnemyAttack" was declared but never referenced
+  static int Battle_EnemyAttack() {
+PokeBattle.c: 8 warnings, 20 errors
+compiling BattleImages.c...
+compiling PokeStructs.c...
+PokeStructs.c(5): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "Image_t *"
+        "SQUIRTLE\0", 5, 0, 48, 0,
+PokeStructs.c(5): error:  #144: a value of type "int" cannot be used to initialize an entity of type "Image_t *"
+        "SQUIRTLE\0", 5, 0, 48, 0,
+PokeStructs.c(8): error:  #67: expected a "}"
+PokeStructs.c(14): warning:  #12-D: parsing restarts here after previous syntax error
+        },
+PokeStructs.c(17): error:  #144: a value of type "Move_t *" cannot be used to initialize an entity of type "int"
+                &CUT, &LEER, &NULL, &NULL
+PokeStructs.c(17): error:  #67: expected a "}"
+                &CUT, &LEER, &NULL, &NULL
+PokeStructs.c(20): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &SquirtleBack,
+PokeStructs.c(21): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &SquirtleFront,
+PokeStructs.c(22): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &SquirtleIn1,
+PokeStructs.c(23): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &SquirtleIn2
+PokeStructs.c(28): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "Image_t *"
+        "CHARMANDER\0", 7, 1, 48, 10,
+PokeStructs.c(28): error:  #144: a value of type "int" cannot be used to initialize an entity of type "Image_t *"
+        "CHARMANDER\0", 7, 1, 48, 10,
+PokeStructs.c(28): error:  #144: a value of type "int" cannot be used to initialize an entity of type "char *"
+        "CHARMANDER\0", 7, 1, 48, 10,
+PokeStructs.c(31): error:  #67: expected a "}"
+PokeStructs.c(37): warning:  #12-D: parsing restarts here after previous syntax error
+        },
+PokeStructs.c(39): error:  #144: a value of type "Move_t *" cannot be used to initialize an entity of type "int"
+                &SCRATCH, &GROWL, &NULL, &NULL
+PokeStructs.c(39): error:  #67: expected a "}"
+                &SCRATCH, &GROWL, &NULL, &NULL
+PokeStructs.c(42): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &CharmanderBack,
+PokeStructs.c(43): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &CharmanderFront,
+PokeStructs.c(44): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &CharmanderIn1,
+PokeStructs.c(45): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &CharmanderIn2
+PokeStructs.c(50): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "Image_t *"
+        "-\0", 0, 0, 0, 0, 
+PokeStructs.c(53): error:  #67: expected a "}"
+PokeStructs.c(59): warning:  #12-D: parsing restarts here after previous syntax error
+        },
+PokeStructs.c(61): error:  #144: a value of type "Move_t *" cannot be used to initialize an entity of type "int"
+                &NULL,&NULL, &NULL, &NULL
+PokeStructs.c(61): error:  #67: expected a "}"
+                &NULL,&NULL, &NULL, &NULL
+PokeStructs.c(64): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &NullIm,
+PokeStructs.c(65): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &NullIm,
+PokeStructs.c(66): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &NullIm,
+PokeStructs.c(67): error:  #144: a value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &NullIm
+PokeStructs.c: 3 warnings, 27 errors
+compiling User.c...
+User.c(5): error:  #29: expected an expression
+        {},
+User.c(6): error:  #29: expected an expression
+        {},
+User.c: 0 warnings, 2 errors
+compiling Kid.c...
+compiling ProfOak.c...
+".\Pokemon.axf" - 49 Error(s), 18 Warning(s).
+Target not created
+value of type "Image_t *" cannot be used to initialize an entity of type "char *"
+                &NullIm
+PokeStructs.c: 3 warnings, 27 errors
+compiling User.c...
+User.c(5): error:  #29: expected an expression
+        {},
+User.c(6): error:  #29: expected an expression
+        {},
+User.c: 0 warnings, 2 errors
+compiling Kid.c...
+compiling ProfOak.c...
+".\Pokemon.axf" - 52 Error(s), 18 Warning(s).
+Target not created
+User.c...
+User.c(5): error:  #29: expected an expression
+        {},
+User.c(6): error:  #29: expected an expression
+        {},
+User.c: 0 warnings, 2 errors
+compiling Kid.c...
+compiling ProfOak.c...
+".\Pokemon.axf" - 55 Error(s), 18 Warning(s).
+Target not created

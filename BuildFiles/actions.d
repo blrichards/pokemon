@@ -1,0 +1,14 @@
+.\actions.o: ..\Actions.c
+.\actions.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\actions.o: ..\PokeLib.h
+.\actions.o: ..\People.h
+.\actions.o: ..\PokeLib.h
+.\actions.o: ..\Graphics.h
+.\actions.o: ..\PokeBattle.h
+.\actions.o: ..\PokeLib.h
+.\actions.o: ..\random.h
+.\actions.o: ..\ST7735.h
+.\actions.o: ..\PokeLib.h
+.\actions.o: ..\Joystick.h
+.\actions.o: ..\tm4c123gh6pm.h
+.\actions.o: ..\UART.h

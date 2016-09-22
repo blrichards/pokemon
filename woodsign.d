@@ -1,0 +1,1 @@
+.\woodsign.o: WoodSign.c

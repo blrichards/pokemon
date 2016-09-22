@@ -1,0 +1,151 @@
+Dependencies for Project 'Pokemon', Target 'Pokemon': (DO NOT MODIFY !)
+F (.\ADC.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+F (.\DAC.c)(0x5727DC4D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+F (.\Sound.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Sound.h)(0x57253AAC)
+I (DAC.h)(0x5727DC4E)
+F (.\ST7735.c)(0x5725E3D0)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PokeLib.h)(0x5728E806)
+I (ST7735.h)(0x57253FDB)
+I (tm4c123gh6pm.h)(0x57253AAC)
+F (.\Timer0.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57253AAC)
+F (.\Timer1.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57253AAC)
+F (.\LCD.s)(0x57253AAC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Print.s)(0x57253AAC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\random.s)(0x57253AAC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\startup.s)(0x57253AAC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Pokemon.c)(0x5729142E)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\pokemon.o --omf_browse .\pokemon.crf --depend .\pokemon.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57253AAC)
+I (ST7735.h)(0x57253FDB)
+I (PokeLib.h)(0x5728E806)
+I (Random.h)(0x57253AAC)
+I (TExaS.h)(0x57253AAC)
+I (ADC.h)(0x57253AAC)
+I (Graphics.h)(0x57266E44)
+I (PokeBattle.h)(0x5728FA76)
+I (Joystick.h)(0x57253AAC)
+I (Maps.h)(0x57253AAD)
+I (Images.h)(0x57253AAC)
+I (Red_House.h)(0x57253AAC)
+I (Environment.h)(0x57253AAC)
+I (Trainer.h)(0x57253AAC)
+I (Inside.h)(0x57253AAC)
+I (Actions.h)(0x57253AAC)
+I (Kid.h)(0x57253AAC)
+I (ProfOak.h)(0x57253AAD)
+I (People.h)(0x5729142E)
+I (PokeStructs.h)(0x5727CBA4)
+F (.\Music.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\music.o --omf_browse .\music.crf --depend .\music.d)
+F (.\Joystick.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\joystick.o --omf_browse .\joystick.crf --depend .\joystick.d)
+I (Joystick.h)(0x57253AAC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57253AAC)
+F (.\Graphics.c)(0x57253AAD)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\graphics.o --omf_browse .\graphics.crf --depend .\graphics.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PokeLib.h)(0x5728E806)
+I (ST7735.h)(0x57253FDB)
+I (Maps.h)(0x57253AAD)
+I (Images.h)(0x57253AAC)
+I (Red_House.h)(0x57253AAC)
+I (Environment.h)(0x57253AAC)
+I (Trainer.h)(0x57253AAC)
+I (Inside.h)(0x57253AAC)
+I (Actions.h)(0x57253AAC)
+I (Kid.h)(0x57253AAC)
+I (ProfOak.h)(0x57253AAD)
+I (Joystick.h)(0x57253AAC)
+I (tm4c123gh6pm.h)(0x57253AAC)
+I (Random.h)(0x57253AAC)
+F (.\Actions.c)(0x5728F398)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\actions.o --omf_browse .\actions.crf --depend .\actions.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PokeLib.h)(0x5728E806)
+I (Graphics.h)(0x57266E44)
+I (PokeBattle.h)(0x5728FA76)
+I (random.h)(0x57253AAC)
+I (ST7735.h)(0x57253FDB)
+I (Joystick.h)(0x57253AAC)
+I (tm4c123gh6pm.h)(0x57253AAC)
+F (.\Inside.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\inside.o --omf_browse .\inside.crf --depend .\inside.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\Environment.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\environment.o --omf_browse .\environment.crf --depend .\environment.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\Trainer.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\trainer.o --omf_browse .\trainer.crf --depend .\trainer.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\Images.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\images.o --omf_browse .\images.crf --depend .\images.d)
+F (.\Red_House.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\red_house.o --omf_browse .\red_house.crf --depend .\red_house.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\Maps.c)(0x5728EDF7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\maps.o --omf_browse .\maps.crf --depend .\maps.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Maps.h)(0x57253AAD)
+I (PokeLib.h)(0x5728E806)
+I (Images.h)(0x57253AAC)
+I (Red_House.h)(0x57253AAC)
+I (Environment.h)(0x57253AAC)
+I (Trainer.h)(0x57253AAC)
+I (Inside.h)(0x57253AAC)
+I (Actions.h)(0x57253AAC)
+I (Kid.h)(0x57253AAC)
+I (ProfOak.h)(0x57253AAD)
+F (.\PokeBattle.c)(0x572912E1)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\pokebattle.o --omf_browse .\pokebattle.crf --depend .\pokebattle.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x57253FDB)
+I (PokeLib.h)(0x5728E806)
+I (Random.h)(0x57253AAC)
+I (Joystick.h)(0x57253AAC)
+I (tm4c123gh6pm.h)(0x57253AAC)
+I (BattleImages.h)(0x5728F408)
+I (PokeBattle.h)(0x5728FA76)
+I (User.h)(0x57253F59)
+I (PokeStructs.h)(0x5727CBA4)
+I (Graphics.h)(0x57266E44)
+F (.\PokemonInfo.h)(0x5728F299)()
+F (.\PokemonSprites.h)(0x5728B84E)()
+F (.\BattleImages.c)(0x5728F3C9)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\battleimages.o --omf_browse .\battleimages.crf --depend .\battleimages.d)
+F (.\PokeStructs.c)(0x5728F29D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\pokestructs.o --omf_browse .\pokestructs.crf --depend .\pokestructs.d)
+I (PokeLib.h)(0x5728E806)
+I (PokemonInfo.h)(0x5728F299)
+F (.\User.c)(0x5728F296)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\user.o --omf_browse .\user.crf --depend .\user.d)
+I (PokeLib.h)(0x5728E806)
+I (PokeStructs.h)(0x5727CBA4)
+I (PokemonInfo.h)(0x5728F299)
+F (.\Kid.c)(0x57253AAC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\kid.o --omf_browse .\kid.crf --depend .\kid.d)
+F (.\Actions.h)(0x57253AAC)()
+F (.\ADC.h)(0x57253AAC)()
+F (.\BattleImages.h)(0x5728F408)()
+F (.\DAC.h)(0x5727DC4E)()
+F (.\Environment.h)(0x57253AAC)()
+F (.\Graphics.h)(0x57266E44)()
+F (.\Images.h)(0x57253AAC)()
+F (.\Inside.h)(0x57253AAC)()
+F (.\Joystick.h)(0x57253AAC)()
+F (.\Kid.h)(0x57253AAC)()
+F (.\LCD.h)(0x57253AAC)()
+F (.\Maps.h)(0x57253AAD)()
+F (.\Music.h)(0x57253AAC)()
+F (.\PokeBattle.h)(0x5728FA76)()
+F (.\PokeLib.h)(0x5728E806)()
+F (.\PokeStructs.h)(0x5727CBA4)()
+F (.\print.h)(0x57253AAC)()
+F (.\random.h)(0x57253AAC)()
+F (.\Red_House.h)(0x57253AAC)()
+F (.\Sound.h)(0x57253AAC)()
+F (.\ST7735.h)(0x57253FDB)()
+F (.\Timer0.h)(0x57253AAC)()
+F (.\Timer1.h)(0x57253AAC)()
+F (.\tm4c123gh6pm.h)(0x57253AAC)()
+F (.\Trainer.h)(0x57253AAC)()
+F (.\User.h)(0x57253F59)()
+F (.\ProfOak.c)(0x57253AAD)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\profoak.o --omf_browse .\profoak.crf --depend .\profoak.d)
+F (.\PokemonInfo.c)(0x5728F78D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C1231C3PM-o .\pokemoninfo.o --omf_browse .\pokemoninfo.crf --depend .\pokemoninfo.d)
+I (PokeLib.h)(0x5728E806)
+I (PokemonSprites.h)(0x5728B84E)
+I (BattleImages.h)(0x5728F408)
+F (.\texas.o)(0x57253AAC)()
